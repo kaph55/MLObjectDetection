@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MLModel1_ConsoleApp1/MLModel1_ConsoleApp1.csproj" />
+  <Project Path="ObjectConsole.Wpf/ObjectConsole.Wpf.csproj" />
+</Solution>

@@ -1,0 +1,33 @@
+﻿{
+  "Scenario": "ObjectDetection",
+  "DataSource": {
+    "Version": 0,
+    "Type": "Coco",
+    "FilePath": "C:\\Users\\kavit\\PrøveEksamen Dropbox\\Kavita Phogat\\PC\\Downloads\\objectdetection.v12i.coco\\train\\_annotations.coco.json"
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "Type": "TrainingConfig",
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 0,
+    "Type": "ObjectDetectionTrainingOption",
+    "TrainingTime": 2147483647,
+    "Epoch": 5,
+    "ScoreThreshold": 0.6,
+    "IOUThreshold": 0.5,
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "TrainValidateSplitValidationOption",
+      "SplitRatio": 0.2
+    },
+    "ResizeOption": {
+      "Version": 0,
+      "Type": "Resize",
+      "Width": 800,
+      "Height": 600
+    }
+  }
+}
